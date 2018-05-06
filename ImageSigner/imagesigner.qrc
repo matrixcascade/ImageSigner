@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="ImageSigner">
-    </qresource>
+  <qresource prefix="ImageSigner">
+    <file>Resources/52pojie.bmp</file>
+  </qresource>
 </RCC>

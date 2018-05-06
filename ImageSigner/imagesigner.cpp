@@ -4,7 +4,7 @@ ImageSigner::ImageSigner(QWidget *parent, Qt::WFlags flags)
 	: QMainWindow(parent, flags)
 {
 	ui.setupUi(this);
-
+	about=new ProAbout();
 	connect(ui.actionOpen_Source_Image,SIGNAL(triggered()),this,SLOT(SLOT_LoadResPixmap()));
 	connect(ui.actionOpen_Sign_Image,SIGNAL(triggered()),this,SLOT(SLOT_LoadSigPixmap()));
 	connect(ui.pushButton_DoSign,SIGNAL(clicked()),this,SLOT(SLOT_DoSign()));
@@ -1010,5 +1010,5 @@ void ImageSigner::SLOT_SaveTo()
 
 void ImageSigner::SLOT_About()
 {
-	QMessageBox::information(this,"About","ImageSigner v1.0 Code by DBinary e-Mail:MatrixCascade@gmail.com",QMessageBox::Ok);
+	about->show();
 }

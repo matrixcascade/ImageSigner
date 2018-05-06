@@ -7,9 +7,24 @@
 #include <QDir>
 #include <QPainter>
 #include <QMessageBox>
+#include <Qwidget.h>
 #include "Pt_FFT.h"
+#include "ui_About.h"
 
-#include "Pt_FFT.h"
+
+class ProAbout:public QWidget
+{
+	Q_OBJECT
+public:
+	ProAbout(QWidget *parent = 0, Qt::WindowFlags f = 0)
+	{
+		ui.setupUi(this);
+	}
+protected:
+private:
+	Ui::Form_About ui;
+};
+
 
 class ImageSigner : public QMainWindow
 {
@@ -31,6 +46,7 @@ private:
 	QPixmap m_Signmap;
 	QPixmap m_Resmap;
 	QPixmap m_SignedMap;
+	ProAbout *about;
 	Ui::ImageSignerClass ui;
 };
 

@@ -1,27 +1,18 @@
-﻿生成启动时间为 2017/6/7 10:42:51。
+﻿生成启动时间为 2018/5/6 14:10:41。
      1>项目“D:\ImageSigner\ImageSigner\ImageSigner.vcxproj”在节点 2 上(build 个目标)。
-     1>PrepareForBuild:
-         正在创建目录“D:\ImageSigner\Win32\Release\”。
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          正在创建“Release\ImageSigner.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        CustomBuild:
-         Moc'ing imagesigner.h...
-         Uic'ing imagesigner.ui...
-         Could not create output file
-         Rcc'ing imagesigner.qrc...
-     1>RCC : warning : No resources in 'D:\ImageSigner\ImageSigner\imagesigner.qrc'.
-         
+         Uic'ing About.ui...
        ClCompile:
-         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IF:\Qt\4.8.6\include\QtCore /IF:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_imagesigner.cpp
-         qrc_imagesigner.cpp
-         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IF:\Qt\4.8.6\include\QtCore /IF:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_imagesigner.cpp imagesigner.cpp main.cpp Pt_FFT.cpp
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.6\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.6\include\QtCore /ID:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_imagesigner.cpp imagesigner.cpp main.cpp
          moc_imagesigner.cpp
          imagesigner.cpp
          main.cpp
-         Pt_FFT.cpp
          正在生成代码...
        Link:
-         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ImageSigner\Win32\Release\\ImageSigner.exe" /NOLOGO /LIBPATH:F:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ImageSigner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\ImageSigner\Win32\Release\ImageSigner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ImageSigner\Win32\Release\ImageSigner.lib" /MACHINE:X86 Release\qrc_imagesigner.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ImageSigner\Win32\Release\\ImageSigner.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ImageSigner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\ImageSigner\Win32\Release\ImageSigner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ImageSigner\Win32\Release\ImageSigner.lib" /MACHINE:X86 Release\qrc_imagesigner.obj
          Release\moc_imagesigner.obj
          Release\imagesigner.obj
          Release\main.obj
@@ -36,4 +27,4 @@
 
 生成成功。
 
-已用时间 00:00:03.94
+已用时间 00:00:02.02
